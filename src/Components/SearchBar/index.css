@@ -1,0 +1,29 @@
+input[type=text] {
+    margin-left: 10vw;
+    margin-top: 30px;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+input[type=text]::-webkit-input-placeholder {
+    color: rgb(190, 187, 187)
+}
+
+input[type=submit] {
+    visibility: hidden;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

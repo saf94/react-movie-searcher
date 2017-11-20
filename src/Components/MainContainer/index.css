@@ -1,0 +1,50 @@
+.mainContainer {
+    margin: 60px auto;
+    width: 900px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    display: flex
+}
+
+.poster {
+    height: 100%;
+    display: inline-block;
+}
+
+.details {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+.details > span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    font-family: Oswald;
+}
+
+.title {
+    font-size: 54px;
+    font-family: Lato-Bold;
+}
+
+.factsValue {
+    font-size: 24px;
+    color: rgb(25, 209, 117);
+    display: inline-block;
+    margin-top: -10px
+}
+
+.tagline {
+    font-family: Oswald;
+    font-size: 18px;
+    color: rgb(25, 209, 117)
+}

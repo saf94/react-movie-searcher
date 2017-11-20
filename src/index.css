@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato-Light', sans-serif;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./Assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("./Assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("./Assets/fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./Assets/fonts/Oswald-Regular.ttf");
+}
