@@ -18,28 +18,30 @@ class MainContainer extends Component {
 
   render() {
     return (
-      <div className="mainContainer">
+      <div className="wrapper">
         <img className="poster" src={"https://image.tmdb.org/t/p/w500/" + this.props.movieData.posterPath} />
-        <div className="details">
-          <span className="title">{this.props.movieData.title}</span>
-          <span className="tagline">{this.props.movieData.tagline} </span>
-          <span className="overview">{this.props.movieData.overview} </span>
-          <div className="facts">
-            <div>
-              <p>Original Release:</p>
-              <span className="factsValue">{this.props.movieData.releaseDate} </span>
-            </div>
-            <div>
-              <p>Running Time:</p>
-              <span className="factsValue">{this.props.movieData.runtime} Minutes</span>
-            </div>
-            <div>
-              <p>Box Office:</p>
-              <span className="factsValue">${this.props.movieData.revenue} </span>
-            </div>
-            <div>
-              <p>Vote Average:</p>
-              <span className="factsValue">{this.props.movieData.voteAverage} / 10 </span>
+        <div className="detailsPanel">
+          <div className="details">
+            <span className="title">{this.props.movieData.title}</span>
+            <span className="tagline">{this.props.movieData.tagline} </span>
+            <span className="overview">{this.props.movieData.overview} </span>
+            <div className="facts">
+              <div>
+                <p>Original Release:</p>
+                <span className="factsValue">{this.props.movieData.releaseDate} </span>
+              </div>
+              <div>
+                <p>Running Time:</p>
+                <span className="factsValue">{this.props.movieData.runtime} Minutes</span>
+              </div>
+              <div>
+                <p>Box Office:</p>
+                <span className="factsValue">${this.props.movieData.revenue} </span>
+              </div>
+              <div>
+                <p>Vote Average:</p>
+                <span className="factsValue">{this.props.movieData.voteAverage} / 10 </span>
+              </div>
             </div>
           </div>
         </div>

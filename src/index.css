@@ -30,3 +30,11 @@ body {
   font-family: "Oswald";
   src: url("./Assets/fonts/Oswald-Regular.ttf");
 }
+
+@media screen and (max-width: 730px) {
+  .background {
+    width: 100%;
+    height: 100%;
+  }
+
+}

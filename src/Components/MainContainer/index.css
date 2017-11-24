@@ -1,10 +1,15 @@
-.mainContainer {
+
+.wrapper {
     margin: 60px auto;
     width: 900px;
     height: 600px;
+    display: flex;
+
+}
+
+.detailsPanel {
     background-color: rgba(0, 0, 0, 0.8);
     color: #FFF;
-    display: flex
 }
 
 .poster {
@@ -47,4 +52,39 @@
     font-family: Oswald;
     font-size: 18px;
     color: rgb(25, 209, 117)
+}
+
+@media screen and (max-width: 930px) {
+    .wrapper {
+        margin: 60px auto;
+        width: 700px;
+        height: 500px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .factsValue {
+        font-size: 18px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .wrapper {
+        flex-wrap: wrap-reverse;
+        width: 500px;
+        height: 150vh;
+    }
+
+    .poster {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 }
